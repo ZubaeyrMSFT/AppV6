@@ -29,7 +29,7 @@ namespace AppV6.Controllers
         public String getWelcomeMessage()
         {
             Console.WriteLine("ZBXXX : home path!");
-            return "Welcome to WebApp 6.0_preview6_testing..";
+            return "Welcome to WebApp 6.0_preview5 (with app insights)";
         }
 
 

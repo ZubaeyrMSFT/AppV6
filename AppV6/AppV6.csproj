@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>473c8bc0-4092-46ed-a491-d4d8b9bf0bbc</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/b57e15e1-5109-4368-b4e1-ad5230344ad8/resourceGroups/isolated_v6_group/providers/microsoft.insights/components/vnet6</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0"  targetFramework="net6x"/>
 	  <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
   </ItemGroup>
 
