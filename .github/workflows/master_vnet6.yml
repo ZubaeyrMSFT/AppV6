@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'vnet6'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_26ff26aef8e446ada0e31eb9a923f3b7 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_247f7feef2924bb3bb7df4dc484e13bf }}
         package: .
